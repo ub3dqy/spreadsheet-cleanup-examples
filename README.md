@@ -69,7 +69,7 @@ Only post invented or anonymized examples in public. Arrange a private channel f
 
 Writing prices depend on the source material and agreed scope. The US$15 example above applies to spreadsheet work.
 
-All examples use invented data. They were prepared with AI assistance and checked against the source facts. They are demonstrations, not past paid client work or testimonials.
+All examples use invented data and were checked against the source facts. They are demonstrations, not past paid client work or testimonials.
 
 <details>
 <summary>More about the spreadsheet examples and checks</summary>

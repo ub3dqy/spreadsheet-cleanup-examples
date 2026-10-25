@@ -19,4 +19,4 @@ Stationery is not included.
 DELIVERABLE
 A title, short description and specifications ready for a product listing.
 All product features come from the source facts. Scope and price are agreed separately.
-This sample was prepared with AI assistance and checked against the source facts.
+This sample was checked against the source facts.
