@@ -1,28 +1,64 @@
-# Spreadsheet cleanup and reconciliation
+# Помощь с таблицами и понятными текстами
 
-Two examples of a small Excel / CSV service. All records are invented. These files contain no client data and are not presented as past paid work or testimonials.
+Нужно привести в порядок список товаров, написать описание или объяснить клиенту порядок действий? Ниже можно посмотреть, какой результат вы получите.
 
-## Examples
+**[Открыть короткое портфолио: 3 страницы с примерами](portfolio.pdf)** · [English](ENGLISH.md)
 
-- [Cleanup: original data, result and exception log](01-spreadsheet-cleanup.xlsx). Twelve source records become ten after consolidating two exact full-row duplicates. Ambiguous dates, an invalid date and a missing price remain visible for review. A real zero quantity is retained.
-- [Compare two inventory lists](02-list-reconciliation.xlsx). Eight distinct text codes: two matches and six cases to review. Missing records, a missing quantity, duplicate codes and quantity differences remain separate. The text codes `0001` and `1` stay distinct. Conflicting labels are flagged by the comparison routine rather than treated as a match.
+## 1. Навести порядок в таблице
 
-![Cleanup example](images/cleanup.png)
+**Задача:** убрать точные повторы, привести понятные даты и числа к одному виду, найти пропуски. Ещё можно сравнить два списка и показать, где они расходятся.
 
-![Reconciliation example](images/reconciliation.png)
+**Пример:** было 12 строк, после удаления двух точных повторов осталось 10. Три спорных значения вынесены для уточнения. Настоящие нулевые остатки сохранены.
 
-These are snapshot deliverables. Editing a source sheet does not rerun cleaning or reconciliation. Summary counts recalculate from the displayed result. Files were checked with the spreadsheet authoring engine and by inspecting the exported XLSX data; desktop Excel was not executed.
+**Вы получите:** готовую таблицу, сохранённый исходник и короткий список исправлений и вопросов.
 
-## Small service offer
+![Пример обработки таблицы: что было и что стало](images/simple-01.png)
 
-Pilot quote: **US$15**, subject to the actual sample and scope.
+[Скачать пример обработки таблицы](01-spreadsheet-cleanup.xlsx) · [Скачать пример сравнения двух списков](02-list-reconciliation.xlsx)
 
-One file with up to 500 data rows and 10 source columns, with up to three simple cleanup operations, or an agreed comparison of two lists with up to 500 rows in total. Delivery includes the processed file, unchanged source and a short change/exception report. One correction within the agreed scope is included.
+**Пример цены - 15 долларов** за небольшой согласованный объём: до 500 строк и 10 столбцов, до трёх простых операций или сравнение двух списков общим объёмом до 500 строк. Одна правка в согласованных пределах включена.
 
-Scope, rules, price, deadline, acceptance check and an available payment route are agreed before work. An advance is not a universal requirement. Identifiers, leading zeroes, meaningful zeroes, blanks and conflicts are preserved or explicitly flagged. No macros, private account access, unauthorized scraping or complex financial models in the base package. AI-assisted processing with result checks.
+## 2. Подготовить описание товара
 
-For a quote, open an issue with a short description and a **non-sensitive, anonymized** sample. Do not post private client records, credentials, personal financial details or other confidential information. Private delivery needs an explicitly agreed channel.
+**Задача:** превратить разрозненные характеристики в понятный текст для покупателя.
 
-## По-русски
+**Вы получите:** заголовок, короткое описание и список характеристик. В примере использованы только заданные свойства вымышленного настольного органайзера.
 
-Очистка и сверка Excel / CSV. Пилотный ориентир — **15 USD** за небольшой согласованный объём: до 500 строк и 10 столбцов, до трёх простых операций или сверка двух списков. Исходник сохраняется, повторы и неоднозначности отмечаются. Одна правка в согласованном объёме включена. Цена, срок, проверка результата и способ оплаты согласуются после просмотра образца. Для запроса используйте issue с обезличенным примером. Это демонстрации с вымышленными данными, а не оплаченные клиентские работы.
+![Учебный пример описания товара: исходные сведения и готовый текст](images/simple-02.png)
+
+[Открыть готовый текст и исходные данные](03-product-description.txt)
+
+## 3. Сделать понятную инструкцию
+
+**Задача:** разложить сумбурное объяснение по шагам, чтобы читатель понимал, что делать дальше.
+
+**Вы получите:** короткую памятку для клиента или сотрудника. В примере показано, как подготовить образец таблицы для оценки работы.
+
+![Учебный пример инструкции: короткое объяснение превращено в шесть шагов](images/simple-03.png)
+
+[Открыть инструкцию и исходный текст](04-client-instruction.txt)
+
+## Как обсудить работу
+
+1. Напишите, что нужно исправить или подготовить, и приложите небольшой обезличенный пример.
+2. Согласуем результат, объём, цену, срок и способ оплаты.
+3. После выполнения вы получите готовые материалы и пояснения к ним.
+
+Напишите в той переписке, где получили ссылку на это портфолио. Если вам удобно пользоваться GitHub, можно [оставить запрос здесь](https://github.com/ub3dqy/spreadsheet-cleanup-examples/issues/new).
+
+Публично размещайте только вымышленные или обезличенные примеры. Полные рабочие файлы передавайте по отдельно согласованному каналу.
+
+Цена текстов и инструкций определяется после просмотра исходных материалов. Пример за 15 долларов относится к небольшому заданию с таблицей.
+
+Все примеры учебные, с вымышленными данными. Они подготовлены с помощью ИИ и проверены по исходным сведениям. Это демонстрации, а не оплаченные клиентские работы или отзывы.
+
+<details>
+<summary>Подробности о проверке таблиц</summary>
+
+В первом файле сохранены 12 исходных строк, результат из 10 строк и сведения о двух точных повторах. Неоднозначная дата, неверная дата и пропущенная цена оставлены для проверки.
+
+Во втором файле сравниваются восемь разных кодов товаров: два совпадения и шесть случаев для проверки. Коды `0001` и `1` не объединяются. Отсутствующий товар, пустое количество, повторяющийся код и разное количество показаны отдельно.
+
+Это готовые примеры результата. Изменение исходного листа не запускает обработку заново. Итоги пересчитываются по показанным строкам результата. Проверены сохранённые данные, расчёты и вид листов; настольный Excel для этой проверки не запускался.
+
+</details>
