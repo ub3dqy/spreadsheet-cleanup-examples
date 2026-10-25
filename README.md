@@ -1,64 +1,83 @@
-# Помощь с таблицами и понятными текстами
+**English** · [Русский](README.ru.md)
 
-Нужно привести в порядок список товаров, написать описание или объяснить клиенту порядок действий? Ниже можно посмотреть, какой результат вы получите.
+# Clear spreadsheets and practical writing
 
-**[Открыть короткое портфолио: 3 страницы с примерами](portfolio.pdf)** · [English](ENGLISH.md)
+Need a tidy product list, a clearer product description or instructions your customers can follow? Here is what the finished work can look like.
 
-## 1. Навести порядок в таблице
+## 1. Clean up or compare spreadsheets
 
-**Задача:** убрать точные повторы, привести понятные даты и числа к одному виду, найти пропуски. Ещё можно сравнить два списка и показать, где они расходятся.
+**The task:** remove exact duplicate rows, make clear dates and numbers consistent, and highlight gaps. Or compare two lists and show where they differ.
 
-**Пример:** было 12 строк, после удаления двух точных повторов осталось 10. Три спорных значения вынесены для уточнения. Настоящие нулевые остатки сохранены.
+| Before | After |
+| --- | --- |
+| 12 rows, including two exact duplicates | 10 rows in the cleaned file |
+| Unclear dates and a missing price | Three values clearly marked for review |
+| A real zero quantity | The zero is kept, not treated as a blank |
 
-**Вы получите:** готовую таблицу, сохранённый исходник и короткий список исправлений и вопросов.
+**You receive:** the finished spreadsheet, the unchanged source and a short list of changes and questions.
 
-![Пример обработки таблицы: что было и что стало](images/simple-01.png)
+[Download the cleanup example](01-spreadsheet-cleanup.xlsx) · [Download the comparison example](02-list-reconciliation.xlsx)
 
-[Скачать пример обработки таблицы](01-spreadsheet-cleanup.xlsx) · [Скачать пример сравнения двух списков](02-list-reconciliation.xlsx)
+**Example quote: US$15** for an agreed small task with up to 500 rows and 10 columns, covering up to three simple cleanup operations. Alternatively, compare two lists with up to 500 rows in total. One correction within the agreed scope is included.
 
-**Пример цены - 15 долларов** за небольшой согласованный объём: до 500 строк и 10 столбцов, до трёх простых операций или сравнение двух списков общим объёмом до 500 строк. Одна правка в согласованных пределах включена.
+## 2. Write a product description
 
-## 2. Подготовить описание товара
+**The task:** turn a few product facts into clear copy for a listing.
 
-**Задача:** превратить разрозненные характеристики в понятный текст для покупателя.
+**Before:** bamboo desk organizer; five compartments; 22 x 10 x 8 cm; natural color; stationery not included.
 
-**Вы получите:** заголовок, короткое описание и список характеристик. В примере использованы только заданные свойства вымышленного настольного органайзера.
+**After:**
 
-![Учебный пример описания товара: исходные сведения и готовый текст](images/simple-02.png)
+> **Bamboo Desk Organizer, 5 Compartments**
+>
+> Keep pens and small stationery items in five separate compartments. The organizer is made from bamboo in a natural color.
+>
+> Dimensions: 22 x 10 x 8 cm. Stationery is not included.
 
-[Открыть готовый текст и исходные данные](03-product-description.txt)
+**You receive:** a title, short description and specifications based on the facts you supply.
 
-## 3. Сделать понятную инструкцию
+[Read the complete example and source facts](03-product-description.en.txt)
 
-**Задача:** разложить сумбурное объяснение по шагам, чтобы читатель понимал, что делать дальше.
+## 3. Make instructions easier to follow
 
-**Вы получите:** короткую памятку для клиента или сотрудника. В примере показано, как подготовить образец таблицы для оценки работы.
+**The task:** turn an informal explanation into clear steps for a customer or colleague.
 
-![Учебный пример инструкции: короткое объяснение превращено в шесть шагов](images/simple-03.png)
+**Example: how to send a spreadsheet sample**
 
-[Открыть инструкцию и исходный текст](04-client-instruction.txt)
+1. Make a copy of your file.
+2. Include 10-20 rows that show the problems.
+3. Replace personal information with invented details.
+4. Explain what needs fixing.
+5. Show one example of the result you want.
+6. State the file format and preferred deadline.
 
-## Как обсудить работу
+**You receive:** a short guide with an easy-to-follow sequence.
 
-1. Напишите, что нужно исправить или подготовить, и приложите небольшой обезличенный пример.
-2. Согласуем результат, объём, цену, срок и способ оплаты.
-3. После выполнения вы получите готовые материалы и пояснения к ним.
+[Read the complete guide and original note](04-client-instruction.en.txt)
 
-Напишите в той переписке, где получили ссылку на это портфолио. Если вам удобно пользоваться GitHub, можно [оставить запрос здесь](https://github.com/ub3dqy/spreadsheet-cleanup-examples/issues/new).
+## Discuss a task
 
-Публично размещайте только вымышленные или обезличенные примеры. Полные рабочие файлы передавайте по отдельно согласованному каналу.
+1. Send a short description and a small, anonymized sample.
+2. Agree the result, scope, price, deadline and payment method.
+3. Receive the finished materials and any notes you need to use them.
 
-Цена текстов и инструкций определяется после просмотра исходных материалов. Пример за 15 долларов относится к небольшому заданию с таблицей.
+Reply through the conversation where you received this portfolio link. If you already use GitHub, you can also [leave a request here](https://github.com/ub3dqy/spreadsheet-cleanup-examples/issues/new).
 
-Все примеры учебные, с вымышленными данными. Они подготовлены с помощью ИИ и проверены по исходным сведениям. Это демонстрации, а не оплаченные клиентские работы или отзывы.
+Only post invented or anonymized examples in public. Arrange a private channel for full working files.
+
+Writing prices depend on the source material and agreed scope. The US$15 example above applies to spreadsheet work.
+
+All examples use invented data. They were prepared with AI assistance and checked against the source facts. They are demonstrations, not past paid client work or testimonials.
 
 <details>
-<summary>Подробности о проверке таблиц</summary>
+<summary>More about the spreadsheet examples and checks</summary>
 
-В первом файле сохранены 12 исходных строк, результат из 10 строк и сведения о двух точных повторах. Неоднозначная дата, неверная дата и пропущенная цена оставлены для проверки.
+The cleanup file contains 12 original records, a result with 10 records and a log of the two exact duplicates. An ambiguous date, an invalid date and a missing price remain visible for review.
 
-Во втором файле сравниваются восемь разных кодов товаров: два совпадения и шесть случаев для проверки. Коды `0001` и `1` не объединяются. Отсутствующий товар, пустое количество, повторяющийся код и разное количество показаны отдельно.
+The comparison file includes eight distinct product codes: two matches and six cases to check. Missing items, missing quantities, duplicate codes and different quantities remain separate. The text codes `0001` and `1` stay distinct.
 
-Это готовые примеры результата. Изменение исходного листа не запускает обработку заново. Итоги пересчитываются по показанным строкам результата. Проверены сохранённые данные, расчёты и вид листов; настольный Excel для этой проверки не запускался.
+These are finished examples. Editing a source sheet does not run the cleanup again. Summary counts recalculate from the displayed results. Saved data, calculations and sheet layouts were checked; desktop Excel was not run.
 
 </details>
+
+[Русская версия](README.ru.md) · [Three-page visual portfolio in Russian](portfolio.pdf)
