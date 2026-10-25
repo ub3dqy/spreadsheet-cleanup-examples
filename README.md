@@ -4,6 +4,8 @@
 
 Need a tidy product list, a clearer product description or instructions your customers can follow? Here is what the finished work can look like.
 
+**[Open the 3-page PDF portfolio](portfolio-en.pdf)**
+
 ## 1. Clean up or compare spreadsheets
 
 **The task:** remove exact duplicate rows, make clear dates and numbers consistent, and highlight gaps. Or compare two lists and show where they differ.
@@ -80,4 +82,4 @@ These are finished examples. Editing a source sheet does not run the cleanup aga
 
 </details>
 
-[Русская версия](README.ru.md) · [Three-page visual portfolio in Russian](portfolio.pdf)
+[Русская версия](README.ru.md) · [PDF portfolio in English](portfolio-en.pdf)
