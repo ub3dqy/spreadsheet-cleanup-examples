@@ -59,6 +59,8 @@ Need a tidy product list, a clearer product description or instructions your cus
 
 ## Discuss a task
 
+[Book Excel/CSV cleanup on Kwork (Russian)](https://kwork.ru/personal-assistant/55310779/ochishchu-tablitsu-excel-ili-csv-uberu-dubli-i-ispravlyu-format). The Kwork package has its own scope and price, listed on the service page.
+
 1. Send a short description and a small, anonymized sample.
 2. Agree the result, scope, price, deadline and payment method.
 3. Receive the finished materials and any notes you need to use them.
